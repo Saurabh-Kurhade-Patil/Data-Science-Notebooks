@@ -1,0 +1,48 @@
+Linear Regression is a popular regression learning algorithm that learns a model which is a linear combination of features of the input example.
+
+To understand this in better terms will try to break it down into three parts,
+
+The History:
+Sir Isaac Newton is credited with inventing, “A certain technique known today as Linear Regression Analysis”.
+
+In late 1800s, the idea was extended by Sir Francis Galton, he observed the height of parent and their children, he observed that offspring of extremely tall or short parents tended to “regress” or move towards the average(mean) height/size, he termed this phenomenon as “regression towards mediocrity”.
+
+With the conceptual framework provided Karl Pearson placed regression on mathematical footing.
+
+Linear Regression is now a foundation algorithm about understanding relationships between variables and making prediction.
+
+2. The What ?
+
+Linear regression is supervised machine learning algorithm which identifies the relationship amongst the dependent (target) and independent (input) variables.
+
+The whole concept is based upon a linear equation,
+
+y = wX + b
+
+where, w is slope of the line, b is y-intercept, X is input and y is target.
+
+Consider a model like a student in a class, and lectures as a training while exams are testing, corresponding the same logic here.
+We initially split the whole dataset in 2 parts Training data and Test data, the using the training data we provide model it try to learn the pattern from it i.e. it try to find the right values for ‘w’ and ‘b’.
+
+Now, finding the values of w & b:
+
+y = wX +b . . . . . . . . . . . (1)
+
+therefore, b = y -wX . . . . . . . . . . . (2)
+
+If we derive mathematical equation,
+
+m=∑(xi−x̄)(yi−ȳ)/∑(xi−x̄)**2 . . . . . . . . . . (3)
+
+using above derived equation lets dive more into it,
+
+3. The How?
+
+Let’s try to understand based on a example:
+
+consider a simple example where no of hours study (X) vs package received
+For coding example refer here,
+
+Conclusion :
+
+We have created our own Linear regression model and drawn a decision boundary.
